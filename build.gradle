@@ -18,6 +18,11 @@ dependencies {
     testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.7.0'
 }
 
+jar {
+    baseName = 'jenkins2'
+    version =  '0.0.1'
+}
+
 test {
     useJUnitPlatform()
 }
